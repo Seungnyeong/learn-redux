@@ -51,3 +51,5 @@ function Todos({ todos, onCreate, onToggle}) {
 }
 
 export default React.memo(Todos);
+
+//React.memo 렌더링 낭비를 줄이기 위해서 하는 것임.
